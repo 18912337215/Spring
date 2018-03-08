@@ -9,7 +9,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		// 加载好配置文件夹
+		// 加载好配置文件夹    
 		ApplicationContext act = new ClassPathXmlApplicationContext("spring-context.xml");
 		
 		HelloService hs =  (HelloService)act.getBean("helloService");
